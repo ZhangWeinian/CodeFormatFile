@@ -3871,14 +3871,11 @@ NamespaceMacros: [BEGIN_NAMESPACE, END_NAMESPACE, NAMESPACE, NAMESPACE_BEGIN, NA
 #
 # 数字文字的大写样式。每个数字文字组件都有单独的控件。
 # 例如，下面的配置将保留指数字母，将十六进制数字重新格式化为小写，将数字文字前缀重新格式化为大写，将后缀重新格式化为缩写:
-#
-#     +---------------------------+
-#     | NumericLiteralCase:       |
-#     |     ExponentLetter: Leave |
-#     |     HexDigit: Lower       |
-#     |     Prefix: Upper         |
-#     |     Suffix: Lower         |
-#     +---------------------------+
+#     NumericLiteralCase:
+#         ExponentLetter: Leave
+#         HexDigit: Lower
+#         Prefix: Upper
+#         Suffix: Lower
 #
 # NumericLiteralCase:
     #
