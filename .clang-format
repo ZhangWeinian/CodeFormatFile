@@ -3859,7 +3859,8 @@ NamespaceIndentation: All
 #       <namespace-content>
 #     }
 #
-NamespaceMacros: [BEGIN_NAMESPACE, END_NAMESPACE, NAMESPACE, NAMESPACE_BEGIN, NAMESPACE_END]
+NamespaceMacros:
+    [BEGIN_NAMESPACE, END_NAMESPACE, NAMESPACE, NAMESPACE_BEGIN, NAMESPACE_END]
 # ^^^^^^
 
 # vvvvvv
@@ -3881,39 +3882,39 @@ NamespaceMacros: [BEGIN_NAMESPACE, END_NAMESPACE, NAMESPACE, NAMESPACE_BEGIN, NA
 #     +---------------------------+
 #
 # NumericLiteralCase:
-    #
-    # +---------------------------+
-    # | DO-NOT-REMOVE-INDENTATION |
-    # +---------------------------+
-    #
+#
+# +---------------------------+
+# | DO-NOT-REMOVE-INDENTATION |
+# +---------------------------+
+#
 
-    # ExponentLetter: 指数字母的大小写。例如：
-    #     float a = 6.02e23 + 1.0E10; // Leave
-    #     float a = 6.02E23 + 1.0E10; // Upper
-    #     float a = 6.02e23 + 1.0e10; // Lower
-    #
-    # ExponentLetter: Lower
+# ExponentLetter: 指数字母的大小写。例如：
+#     float a = 6.02e23 + 1.0E10; // Leave
+#     float a = 6.02E23 + 1.0E10; // Upper
+#     float a = 6.02e23 + 1.0e10; // Lower
+#
+# ExponentLetter: Lower
 
-    # HexDigit: 十六进制数字的大小写。例如：
-    #     a = 0xaBcDeF; // Leave
-    #     a = 0xABCDEF; // Upper
-    #     a = 0xabcdef; // Lower
-    #
-    # HexDigit: Lower
+# HexDigit: 十六进制数字的大小写。例如：
+#     a = 0xaBcDeF; // Leave
+#     a = 0xABCDEF; // Upper
+#     a = 0xabcdef; // Lower
+#
+# HexDigit: Lower
 
-    # Prefix: 数字前缀的大小写。例如：
-    #     a = 0XF0 | 0b1; // Leave
-    #     a = 0XF0 | 0B1; // Upper
-    #     a = 0xF0 | 0b1; // Lower
-    #
-    # Prefix: Upper
+# Prefix: 数字前缀的大小写。例如：
+#     a = 0XF0 | 0b1; // Leave
+#     a = 0XF0 | 0B1; // Upper
+#     a = 0xF0 | 0b1; // Lower
+#
+# Prefix: Upper
 
-    # Suffix: 数字后缀的大小写。例如：
-    #     a = 1uLL; // Leave
-    #     a = 1ULL; // Upper
-    #     a = 1ull; // Lower
-    #
-    # Suffix: Lower
+# Suffix: 数字后缀的大小写。例如：
+#     a = 1uLL; // Leave
+#     a = 1ULL; // Upper
+#     a = 1ull; // Lower
+#
+# Suffix: Lower
 # ^^^^^^
 
 # vvvvvv
@@ -5347,7 +5348,8 @@ VerilogBreakBetweenInstancePorts: true
 # 这些应为以下形式的宏:
 #     STRINGIZE(...)
 #
-WhitespaceSensitiveMacros: [STRINGIZE, PP_STRINGIZE, BOOST_PP_STRINGIZE, NS_SWIFT_NAME, CF_SWIFT_NAME]
+WhitespaceSensitiveMacros:
+    [STRINGIZE, PP_STRINGIZE, BOOST_PP_STRINGIZE, NS_SWIFT_NAME, CF_SWIFT_NAME]
 # ^^^^^^
 
 # vvvvvv
