@@ -1,4 +1,5 @@
 # .cmake-format.yaml
+
 format:
     line_width: 120
     dangle_parens: true
