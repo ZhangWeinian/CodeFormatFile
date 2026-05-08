@@ -2,8 +2,8 @@
     "tabWidth": 4,
     "useTabs": true,
     "semi": false,
-    "singleQuote": false,
-    "trailingComma": "all",
+    "singleQuote": true,
+    "trailingComma": "none",
     "bracketSpacing": true,
     "bracketSameLine": true,
     "arrowParens": "avoid"
