@@ -1,18 +1,18 @@
 {
-	"printWidth": 150, // 每行的最大长度
-	"tabWidth": 4, // 每个缩进级别的空格数
-	"useTabs": true, // true: 使用制表符；false: 使用空格
-	"semi": false, // true: 句末使用分号；false: 句末不使用分号
-	"singleQuote": true, // true: 使用单引号；false: 使用双引号
-	"trailingComma": "es5", // "none": 不使用尾随逗号；"es5": 在 ES5 中有效的地方使用尾随逗号；"all": 尽可能使用尾随逗号
-	"bracketSpacing": true, // true: 对象字面量的大括号内有空格；false: 对象字面量的大括号内无空格
-	"bracketSameLine": true, // true: 多行 HTML 元素的 > 与最后一行的内容在同一行；false: 多行 HTML 元素的 > 与最后一行的内容不在同一行
-	"arrowParens": "avoid", // "avoid": 箭头函数参数只有一个时省略括号；"always": 箭头函数参数总是使用括号
-	"endOfLine": "auto", // "auto": 维持现有的行结束符；"lf": 使用换行符；"crlf": 使用回车换行符；"cr": 使用回车符
-	"insertPragma": false, // true: 在文件顶部插入一个特殊的注释，指示该文件已被 Prettier 格式化；false: 不插入特殊注释
-	"requirePragma": false, // true: 只有包含特殊注释的文件才会被 Prettier 格式化；false: 所有文件都会被 Prettier 格式化
-	"quoteProps": "as-needed", // "as-needed": 仅在需要时为对象属性添加引号；"consistent": 如果一个属性需要引号，则所有属性都需要引号；"preserve": 保持对象属性的原样
-	"jsxSingleQuote": false, // true: 在 JSX 中使用单引号；false: 在 JSX 中使用双引号
-	"jsxBracketSameLine": false, // true: 将多行 JSX 元素的 > 放在最后一行的末尾；false: 将多行 JSX 元素的 > 放在单独的一行
-	"vueIndentScriptAndStyle": false, // true: 在 Vue 文件中缩进 <script> 和 <style> 标签内的内容；false: 在 Vue 文件中不缩进 <script> 和 <style> 标签内的内容
+	"printWidth": 150,
+	"tabWidth": 4,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"bracketSpacing": true,
+	"bracketSameLine": true,
+	"arrowParens": "avoid",
+	"endOfLine": "auto",
+	"insertPragma": false,
+	"requirePragma": false,
+	"quoteProps": "as-needed",
+	"jsxSingleQuote": false,
+	"jsxBracketSameLine": false,
+	"vueIndentScriptAndStyle": false
 }
